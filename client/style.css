@@ -1,0 +1,212 @@
+/* CSS Variables
+   https://www.w3schools.com/css/css3_variables.asp
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+}
+
+.flex-item-left {
+
+  padding: 10px;
+  flex: 50%;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+
+.flex-item-right {
+
+  padding: 10px;
+  flex: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.abe {
+  margin-top: 140px;
+}
+
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  color: #202c50;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  color: #202c50;
+}
+
+.button {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #e6eefa;
+  border: 5px solid white;
+  color: #3866a9;
+  font-size: 60px;
+  padding: 14px 40px;
+  border-radius: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #3866a9;
+  border: 5px solid #e6eefa
+}
+
+.topnav {
+  background-color: #e6eefa;
+  overflow: hidden;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.topnav a {
+  float: left;
+  color: #202c50;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3866a9;
+  color: white;
+}
+
+.footer {
+  background-color: #3866a9;
+  min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+  --success-color: #8aeab2;
+  --error-color: #dc658f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: #e6eefa;
+  border-radius: 5px;
+  box-shadow: 0 2px 14px #3866a9;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+
+
+.form {
+  padding: 30px 40px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+  color: #202c50;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  color: #202c50;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #e6eefa;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #3866a9;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  /* bottom: 0;*/
+  left: 0;
+  visibility: hidden;
+  font-size: .75rem;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  font-family: 'Bebas Neue', cursive;
+  cursor: pointer;
+  background-color: #e6eefa;
+  border: 4px solid #fff;
+  border-radius: 4px;
+  color: #3866a9;
+  display: block;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  transition-duration: 00.4s;
+}
+
+.form button:hover{
+  background-color: white;
+  color: #3866a9;
+  border: 4px solid #e6eefa
+}
