@@ -1,0 +1,10 @@
+{
+    "name": "foo",
+    "version": "1.2.3",
+    "description": "A packaged foo fooer for fooing foos",
+    "main": "main.js",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1"
+    }
+}
